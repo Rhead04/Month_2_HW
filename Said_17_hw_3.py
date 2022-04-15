@@ -1,40 +1,35 @@
 """
 HW
 """
-# class Fraction():
-#     def __init__(self, numerator, denominator):
+
+#
+# class Fraction:
+#     def __init__(self,numerator,denominator):
 #         self.numerator = numerator
 #         self.denominator = denominator
 #
-#     def _get_num(self):
-#         print(f"{self.numerator} / {self.denominator}")
+#     def add(self, other):
+#         a = self.numerator + other * self.denominator
+#         print(f'{other} + ({self.numerator}/{self.denominator}) = {a}/{self.denominator}')
 #
-#     def __add__(self, other):
-#         self._get_num()
-#         self.numerator += other
-#         self.denominator += other
-#         self._get_num()
+#     def sub(self, other):
+#         a = other * self.denominator - self.numerator
+#         print(f'{other} - ({self.numerator}/{self.denominator}) = {a}/{self.denominator}')
 #
-#     def __sub__(self, other):
-#         self._get_num()
-#         self.numerator -= other
-#         self.denominator -= other
-#         self._get_num()
+#     def mul(self, other):
+#         a = self.numerator * other
+#         print(f'{other} * ({self.numerator}/{self.denominator}) = {a}/{self.denominator}')
 #
-#     def __mul__(self, other):
-#         self._get_num()
-#         self.numerator *= other
-#         self.denominator *= other
-#         self._get_num()
-#
-#     def __floordiv__(self, other):
-#         self._get_num()
-#         self.numerator //= other
-#         self.denominator //= other
-#         self._get_num()
+#     def floordiv(self, other):
+#         a = self.numerator // (other * self.denominator)
+#         print(f'{other} // ({self.numerator}/{self.denominator}) = {a}/{self.denominator}')
 #
 #
-# fraction = Fraction(5,10)
+# F = Fraction(1,2)
+# F.add(2)
+# F.sub(2)
+# F.mul(2)
+# F.floordiv(2)
 
 """
 EXTRA TASK
